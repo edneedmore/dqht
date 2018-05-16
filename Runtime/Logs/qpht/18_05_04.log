@@ -1,0 +1,2560 @@
+[ 2018-05-04T10:29:05+08:00 ] ::1 /qpht.php?s=/Publics/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_account` WHERE `accountname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T10:29:23+08:00 ] ::1 /qpht.php?s=/Publics/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qp_account` WHERE `accountname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T10:30:03+08:00 ] ::1 /qpht.php?s=/Publics/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_account` WHERE `accountname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T10:30:26+08:00 ] ::1 /qpht.php?s=/Publics/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_account` WHERE `accountname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:30:27+08:00 ] ::1 /qpht.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T10:31:14+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0050s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:02+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:03+08:00 ] ::1 /qpht.php/index/qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: 非法操作:qpht.php
+
+[ 2018-05-04T10:32:14+08:00 ] ::1 /qpht.php/index/qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:qpht.php
+
+[ 2018-05-04T10:32:22+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T10:32:23+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.010000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:25+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:26+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:27+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.012000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:28+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:29+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:30+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.002000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.011000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:31+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:32+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0020s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:33+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.010000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T10:32:35+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.009000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.001000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.009000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:36+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:36+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:53+08:00 ] ::1 /qpht.php/publics/systemout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:32:54+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:33:57+08:00 ] ::1 /qpht.php?s=/Publics/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_account` WHERE `accountname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:33:58+08:00 ] ::1 /qpht.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:38:05+08:00 ] ::1 /qpht.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T10:39:36+08:00 ] ::1 /qpht.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:39:46+08:00 ] ::1 /qpht.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:40:13+08:00 ] ::1 /qpht.php/user/accountList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`solename` FROM `qp_role` ORDER BY id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_account` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_account` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`solename` FROM `qp_role`  [ RunTime:0.0010s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/accountlist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant xx - assumed 'xx' C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 43 行.
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\6289617b1f1764a67ee09827121d3f39.php 第 82 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\6289617b1f1764a67ee09827121d3f39.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:41:09+08:00 ] ::1 /qpht.php/user/accountList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `id`,`solename` FROM `qp_role` ORDER BY id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_account` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_account` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`solename` FROM `qp_role`  [ RunTime:0.0010s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/accountlist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant xx - assumed 'xx' C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 45 行.
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\6289617b1f1764a67ee09827121d3f39.php 第 82 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\6289617b1f1764a67ee09827121d3f39.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:41:41+08:00 ] ::1 /qpht.php/user/accountList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`solename` FROM `qp_role` ORDER BY id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_account` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_account` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`solename` FROM `qp_role`  [ RunTime:0.0000s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/accountlist' LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Use of undefined constant xx - assumed 'xx' C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 45 行.
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\6289617b1f1764a67ee09827121d3f39.php 第 82 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\6289617b1f1764a67ee09827121d3f39.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:42:35+08:00 ] ::1 /qpht.php/index/menuAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant xx - assumed 'xx' C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 45 行.
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\b2afcb36ea388c92d53eed17e22f78e0.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:46:34+08:00 ] ::1 /qpht.php/index/menuAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+NOTIC: [8] Use of undefined constant xx - assumed 'xx' C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 45 行.
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\b2afcb36ea388c92d53eed17e22f78e0.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:49:58+08:00 ] ::1 /qpht.php/index/menuAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0020s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Use of undefined constant xx - assumed 'xx' C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 45 行.
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\b2afcb36ea388c92d53eed17e22f78e0.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:50:20+08:00 ] ::1 /qpht.php/index/menuAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0020s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\b2afcb36ea388c92d53eed17e22f78e0.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T10:51:51+08:00 ] ::1 /qpht.php/index/menuAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\b2afcb36ea388c92d53eed17e22f78e0.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T10:55:25+08:00 ] ::1 /qpht.php/user/rolelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_role` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qp_menu` ORDER BY moduleid  [ RunTime:0.0000s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/rolelist' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\16530e8f59aecc78c9b03ae72599cb65.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:55:29+08:00 ] ::1 /qpht.php/user/getonerole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-04T10:55:42+08:00 ] ::1 /qpht.php/user/roleAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: UPDATE `qp_role` SET `solename`='管理员',`roledescribe`='网站管理员',`jurisdiction`='15,16,4',`updatetime`='1525402542' WHERE `id` = 4 [ RunTime:0.0620s ]
+
+[ 2018-05-04T10:55:43+08:00 ] ::1 /qpht.php/user/rolelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_role` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qp_menu` ORDER BY moduleid  [ RunTime:0.0010s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/rolelist' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\16530e8f59aecc78c9b03ae72599cb65.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:56:00+08:00 ] ::1 /qpht.php/user/getonerole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T10:56:02+08:00 ] ::1 /qpht.php/user/roleAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: UPDATE `qp_role` SET `solename`='管理员',`roledescribe`='网站管理员',`jurisdiction`='3,15,16,4',`updatetime`='1525402562' WHERE `id` = 4 [ RunTime:0.0390s ]
+
+[ 2018-05-04T10:56:04+08:00 ] ::1 /qpht.php/user/rolelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_role` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qp_menu` ORDER BY moduleid  [ RunTime:0.0010s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/rolelist' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\16530e8f59aecc78c9b03ae72599cb65.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:56:08+08:00 ] ::1 /qpht.php/user/accountlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`solename` FROM `qp_role` ORDER BY id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_account` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_account` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SELECT `id`,`solename` FROM `qp_role`  [ RunTime:0.0010s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/accountlist' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\aeff86312662ed909c7fd4d82a98738e.php 第 82 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\aeff86312662ed909c7fd4d82a98738e.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:56:17+08:00 ] ::1 /qpht.php/user/accountlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0020s ]
+SQL: SELECT `id`,`solename` FROM `qp_role` ORDER BY id  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_account` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_account` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`solename` FROM `qp_role`  [ RunTime:0.0000s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/accountlist' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\aeff86312662ed909c7fd4d82a98738e.php 第 82 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\aeff86312662ed909c7fd4d82a98738e.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:56:23+08:00 ] ::1 /qpht.php/user/rolelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_role` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qp_menu` ORDER BY moduleid  [ RunTime:0.0000s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/rolelist' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\16530e8f59aecc78c9b03ae72599cb65.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T10:56:26+08:00 ] ::1 /qpht.php/user/getonerole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-04T10:56:29+08:00 ] ::1 /qpht.php/user/roleAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: UPDATE `qp_role` SET `solename`='管理员',`roledescribe`='网站管理员',`jurisdiction`='15,16,4',`updatetime`='1525402589' WHERE `id` = 4 [ RunTime:0.0310s ]
+
+[ 2018-05-04T10:56:30+08:00 ] ::1 /qpht.php/user/rolelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0020s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_role` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qp_menu` ORDER BY moduleid  [ RunTime:0.0010s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/rolelist' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\16530e8f59aecc78c9b03ae72599cb65.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.028000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:56:33+08:00 ] ::1 /qpht.php/user/accountlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `id`,`solename` FROM `qp_role` ORDER BY id  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0040s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_account` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_account` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SELECT `id`,`solename` FROM `qp_role`  [ RunTime:0.0000s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/accountlist' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:-0.016000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\aeff86312662ed909c7fd4d82a98738e.php 第 82 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\aeff86312662ed909c7fd4d82a98738e.php 第 212 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:-0.003000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:-0.019000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:56:34+08:00 ] ::1 /qpht.php/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T10:57:38+08:00 ] ::1 /qpht.php/publics/systemout
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T10:57:39+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T11:15:38+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T11:15:38+08:00 ] ::1 /qpht.php/Publics/images/bodybg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T11:19:51+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T11:19:51+08:00 ] ::1 /qpht.php/Publics/images/bodybg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T11:19:54+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T11:19:54+08:00 ] ::1 /qpht.php/Publics/images/bodybg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T11:21:06+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T11:21:06+08:00 ] ::1 /qpht.php/Publics/images/bodybg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T11:21:07+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T11:21:07+08:00 ] ::1 /qpht.php/Publics/images/bodybg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T11:21:49+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T11:21:49+08:00 ] ::1 /qpht.php/Publics/images/bodybg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T11:21:59+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T11:21:59+08:00 ] ::1 /qpht.php/Publics/images/bodybg.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T11:25:37+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T13:23:32+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T13:23:48+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T13:26:17+08:00 ] ::1 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] A session had already been started - ignoring session_start() C:\wamp\www\ThinkPHP\Common\functions.php 第 1263 行.
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 8 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T13:26:59+08:00 ] ::1 /qpht.php?s=/Publics/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_account` WHERE `accountname` = 'admin' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T13:27:00+08:00 ] ::1 /qpht.php?s=/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0020s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 11 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T13:35:50+08:00 ] ::1 /qpht.php/user/rolelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_role` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_role` ORDER BY id LIMIT 0,10   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_menu` ORDER BY moduleid  [ RunTime:0.0000s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/rolelist' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\16530e8f59aecc78c9b03ae72599cb65.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T13:35:54+08:00 ] ::1 /qpht.php/user/getonerole
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T13:35:59+08:00 ] ::1 /qpht.php/user/roleAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: UPDATE `qp_role` SET `solename`='管理员',`roledescribe`='网站管理员',`jurisdiction`='3,15,16,4',`updatetime`='1525412159' WHERE `id` = 4 [ RunTime:0.0330s ]
+
+[ 2018-05-04T13:36:01+08:00 ] ::1 /qpht.php/user/rolelist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_role` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_role` ORDER BY id LIMIT 0,10   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_menu` ORDER BY moduleid  [ RunTime:0.0000s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/user/rolelist' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\16530e8f59aecc78c9b03ae72599cb65.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T13:36:13+08:00 ] ::1 /qpht.php/index/menuaction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\54e49669d5634803bc9106ec8246c96b.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T13:37:26+08:00 ] ::1 /qpht.php/index/getonemenuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-04T13:39:04+08:00 ] ::1 /qpht.php/index/getonemenuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qp_menu` WHERE `id` = 15 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T13:42:27+08:00 ] ::1 /qpht.php/index/getonemenuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T13:44:15+08:00 ] ::1 /qpht.php/index/menuaction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0050s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\54e49669d5634803bc9106ec8246c96b.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T13:44:22+08:00 ] ::1 /qpht.php/index/getonemenuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T13:44:26+08:00 ] ::1 /qpht.php/index/menuaction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0040s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\54e49669d5634803bc9106ec8246c96b.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T13:44:44+08:00 ] ::1 /qpht.php/index/menuaction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\54e49669d5634803bc9106ec8246c96b.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T13:44:47+08:00 ] ::1 /qpht.php/index/getonemenuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `qp_menu` WHERE `id` = 3 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T13:45:25+08:00 ] ::1 /qpht.php/index/menuaction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\54e49669d5634803bc9106ec8246c96b.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.022000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-04T13:45:29+08:00 ] ::1 /qpht.php/index/getonemenuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_menu` WHERE `id` = 16 LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-04T14:02:41+08:00 ] ::1 /qpht.php/index/menuaction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\54e49669d5634803bc9106ec8246c96b.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T14:02:55+08:00 ] ::1 /qpht.php/index/getonemenuInfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_menu` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-04T14:03:43+08:00 ] ::1 /qpht.php/index/menuChangAction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.006000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.007000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0040s ]
+SQL: UPDATE `qp_menu` SET `menuname`='用户概况',`describe`='用户概况',`sortnum`='15',`menurl`='/gamemanage/gamemanlist',`moduleid`='2' WHERE `id` = 4 [ RunTime:0.0480s ]
+
+[ 2018-05-04T14:03:45+08:00 ] ::1 /qpht.php/index/menuaction
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/menuaction' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 25 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\54e49669d5634803bc9106ec8246c96b.php 第 82 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.026000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T14:03:48+08:00 ] ::1 /qpht.php/gamemanage/gamemanlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.004000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+ERR: Think\Controller:diaplay方法不存在！
+
+[ 2018-05-04T14:03:58+08:00 ] ::1 /qpht.php/gamemanage/gamemanlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: moduleinfo1 C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 62 行.
+NOTIC: [8] Undefined variable: username C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 78 行.
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 82 行.
+NOTIC: [8] Undefined variable: mdname C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 82 行.
+NOTIC: [8] Undefined variable: roleinfo C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 128 行.
+NOTIC: [8] Undefined variable: accountlist C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 204 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T14:04:33+08:00 ] ::1 /qpht.php/gamemanage/gamemanlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.005000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/gamemanage/gamemanlist' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 82 行.
+NOTIC: [8] Undefined variable: roleinfo C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 128 行.
+NOTIC: [8] Undefined variable: accountlist C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 204 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 230 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T14:05:12+08:00 ] ::1 /qpht.php/gamemanage/gamemanlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/gamemanage/gamemanlist' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 82 行.
+NOTIC: [8] Undefined variable: roleinfo C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 128 行.
+NOTIC: [8] Undefined variable: accountlist C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 204 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T14:05:14+08:00 ] ::1 /qpht.php/gamemanage/gamemanlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/gamemanage/gamemanlist' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 82 行.
+NOTIC: [8] Undefined variable: roleinfo C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 128 行.
+NOTIC: [8] Undefined variable: accountlist C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 204 行.
+NOTIC: [8] Undefined variable: page C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 232 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-04T14:05:33+08:00 ] ::1 /qpht.php/gamemanage/gamemanlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0040s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/gamemanage/gamemanlist' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 82 行.
+NOTIC: [8] Undefined variable: roleinfo C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 128 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-04T14:05:58+08:00 ] ::1 /qpht.php/gamemanage/gamemanlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: Run Common\Behavior\InitHookBehavior [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0030s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE ( 4 ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0030s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/gamemanage/gamemanlist' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 82 行.
+NOTIC: [8] Undefined variable: roleinfo C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 128 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 208 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+

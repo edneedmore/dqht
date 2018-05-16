@@ -1,0 +1,183 @@
+/**
+ * 登录注册样式
+ * @author 鹿文学
+ */
+/*  */
+.unlr .header {}
+.login-header~.occupy{height:0;}
+.banner {background:url(../images/user_bg.png) center 0 no-repeat;background-size:100% 100%;text-align:center;color:#FFF;padding-top:1rem;}
+.login-banner {padding-top:5rem;}
+.login-banner .imgbox {padding:3rem 0;}
+.login-banner .imgbox img {width: 9rem;
+    height: 9rem;
+    border-radius: 100%;
+    background: #FFF;
+    display: block;
+    margin: 2.8vw auto 0rem;box-shadow:0 0 0 4px rgba(255,255,255,.6);}
+
+.t-form .login-box {margin:4rem 1.5rem;font-size:1.8rem;color:#777;}
+.t-form .form-group {background:#FFF;border-radius:1rem;}
+.t-form .input-group {position:relative;}
+.t-form .input-group~.input-group {border-top:1px solid #F1F1F1;}    
+.t-form .input-group .input-fix {position:absolute;top:1.3rem;text-align:center;}
+.t-form .input-group .input-prefix {left:0;width:16%;}
+.t-form .input-group .input-suffix {right:0;width:12%;}
+.t-form .input-group .input-fix .iconfont {font-size:3rem;color:#999;height:100%;line-height:1.4;}
+.t-form .input-group .input-suffix .iconfont {font-weight:100;color:#ddd;}
+.t-form .input-group .txt {font-size:2.2rem;border:1px solid #FFF;}
+.t-form .agree {text-align:left;margin:1rem 0 2rem;}
+.t-form .agree a {color:#18B1EA;}
+.t-form .btn-group {}
+.t-form .btn-group .submit {background:#18B1EA;color:#FFF;font-size:2.6rem;width:100%;border:none;border-radius:4rem;padding:1.5vw 0;}    
+.t-form .link-group {padding:1rem 0;}
+.t-form .link-group .register-btn{color:#18B1EA;float:left;}
+.t-form .link-group .forget-btn {float:right;}
+
+.login-form .input-group {padding:1.3rem 12% 1.3rem 16%;}
+.login-form .input-group .txt{border-left-color:#F1F1F1;width:92%;margin:0 -8% 0 0;padding:.3rem 1% .3rem 6%;}
+
+
+.forget-box,.register-box {margin:1rem 1.5rem;}
+.forget-box .input-group,.register-box .input-group {padding:1rem 3%;overflow:hidden;}
+.forget-box .input-group .txt,.register-box .txt {width:100%;}
+.forget-form .btn-group,.register-box .btn-group {padding-top:2rem;}
+.t-form .input-group .getcode,.t-form .input-group .getcode2{color:#777;text-align:center;font-size:2rem;border-radius:2rem;background:#E5E9EC;}
+.t-form .input-group .getcode{top:.8rem; right:2%;padding:.6rem 0rem;position:absolute;width:38%;}
+.t-form .input-group .getcode.disabled,.t-form .input-group .getcode2.disabled {color:#aaa;}
+
+.t-form .input-mark {margin:0;font-size:2.2rem;color:#666;padding:.3rem 0;}
+.t-form .input-mark span {margin-right:3%;}
+.register-box .zonebox {padding-left:30%;padding-right:12%;}
+/* .register-box .zonebox {padding-left:28%;padding-right:12%;}
+.register-box .input-group .zone {color:#777;position:absolute;top:0;left:0;width:24%;line-height:3;text-align:center;font-size:2.4rem;border-right:1px solid #E5E9EC;height:100%;vertical-align:middle;}
+ */
+.register-box .input-group .zone {color:#777;
+  position:absolute;
+  overflow:hidden;
+  top:0;
+  left:0;
+  width:24%;
+ /* margin-left:3%;*/
+  line-height:2.2;
+  font-size:2.4rem;
+  border-right:1px solid #E5E9EC;
+  height:100%;
+  vertical-align:middle;}
+.register-box .input-group .input-suffix {width:8%;text-align:right;margin-right:2%;}
+.register-box .input-group .input-suffix .iconfont {color:#777;font-size:2.6rem;}
+.register-box .input-group .zone~.txt {}
+
+.register-box .input-group .getcode2 {padding:.4rem 1rem;}
+
+.register-box .table {width:100%;height:100%;}
+.register-box .table .table-cell {vertical-align:middle;text-align:center;}
+.register-box .mark-text {position:absolute;top:0;left:0;height:100%;width:20%;font-size:2rem;}
+.register-box .inputbox {margin-left:20%;width:80%;font-size:2rem;}
+
+.register-box .inputbox .input-radio .iconfont {vertical-align:middle;display:inline-block;border-radius:100%;text-align:center;}
+.register-box .inputbox .input-radio {display:inline-block;width:38%;color:#777;position:relative;}
+.register-box .inputbox .radio {opacity:0;position:absolute;left:0;top:0;margin-left:0;}
+.register-box .inputbox .radio.sex~.iconfont {font-size:2rem;width:2.5rem;height:2.5rem;line-height:2.5rem;color:#D6D6D6;border:1px solid #D6D6D6;margin-right:1rem;}
+.register-box .inputbox .radio.sex.on~.iconfont {background:#18B1EA;color:#FFF;border-color:#18B1EA;}
+
+.forget-notice {color: #666;
+    font-size: 2rem;
+    text-align: left;
+    margin: 0;
+    padding: 2.65rem .8rem 0.78rem;
+    line-height: 1.5;}
+
+.forget-notice a {
+    color: #23BBF3;
+}
+
+@media screen and (max-width:650px) {
+  /* .register-box .zonebox {padding-left:20%;}
+  .register-box .input-group .zone {width:17%;} */
+  
+  .register-box .zonebox {padding-left:31%;}
+  .register-box .input-group .zone {width:25%;}
+  
+}
+
+@media screen and (max-width:600px) {
+  /* .register-box .zonebox {padding-left:18%;}
+  .register-box .input-group .zone {width:15%;} */
+  .register-box .zonebox {padding-left:33%;}
+  .register-box .input-group .zone {width:27%;}
+  
+  .forget-notice {font-size:1.8rem;}
+}
+@media screen and (max-width:550px) {
+  .register-box .zonebox {padding-left:35%;}
+  .register-box .input-group .zone {width:30%;}
+}
+@media screen and (max-width:500px) {
+  .login-banner .imgbox img{width:8rem;height:8rem;}
+  
+  .t-form .login-box {font-size:1.6rem;}
+  .t-form .input-group .input-fix .iconfont {font-size:2.8rem;}
+  .t-form .input-group .txt,.t-form .input-group .getcode,.register-box .input-group .getcode2,.t-form .input-mark {font-size:1.8rem;}
+  .t-form .btn-group .submit {font-size:2.4rem;}
+  
+  .register-box .input-group .input-suffix .iconfont {font-size:2.4rem;}
+  .register-box .input-group .zone {font-size:2.2rem;}
+
+  .register-box .zonebox {padding-left:36%;}
+  .register-box .input-group .zone {width:31%;}
+  
+  .forget-notice {font-size:1.5rem;}
+}
+@media screen and (max-width:450px) {
+  .login-banner .imgbox img {width:7rem;height:7rem;}
+  .register-box .zonebox {padding-left:38%;}
+  .register-box .input-group .zone {width:33%;}
+  .register-box .input-group .getcode2 {padding:0rem .6rem;}
+  
+}
+@media screen and (max-width:400px) {
+  .header .hbtn {font-size:1.4rem;}
+  
+  .login-banner .imgbox {padding:2rem 0;}
+  .login-banner .imgbox img {width:6rem;height:6rem;}
+  
+  .t-form .login-box {font-size:1.4rem;}
+  .t-form .input-group .input-fix .iconfont {font-size:2.6rem;}
+  .t-form .input-group .txt,.t-form .input-group .getcode,.register-box .input-group .getcode2,.t-form .input-mark {font-size:1.8rem;}
+  .t-form .btn-group .submit {font-size:2.2rem;}
+  
+  .register-box .input-group .input-suffix .iconfont {font-size:2.2rem;}
+  .register-box .input-group .zone {font-size:2rem;}
+  
+ 
+}
+@media screen and (max-width:350px) {
+  .login-banner .imgbox {padding:1.8rem 0;}
+  .login-banner .imgbox img {width:5rem;height:5rem;}
+  
+  
+  .t-form .login-box {font-size:1.3rem;}
+  .login-form .input-group {padding-left:20%;padding-right:16%;}
+  .t-form .input-group .input-prefix {left:0;width:20%;}
+  .t-form .input-group .input-suffix {right:0;width:16%;}
+
+  .t-form .input-group .input-fix .iconfont {font-size:2.4rem;}
+  .t-form .input-group .txt,.t-form .input-group .getcode,.register-box .input-group .getcode2,.t-form .input-mark {font-size:1.6rem;}
+  .t-form .btn-group .submit {font-size:2rem;}
+  
+  .register-box .input-group .input-suffix .iconfont {font-size:2rem;}
+  .register-box .input-group .zone {font-size:1.8rem;}
+  
+  .register-box .zonebox {padding-left:42%;}
+  .register-box .input-group .zone {width:36%;}
+  
+  .forget-notice {font-size:1rem;}
+  
+}
+.span-flex{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+

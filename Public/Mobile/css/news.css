@@ -1,0 +1,47 @@
+/**
+ * 资讯样式
+ * @author 鹿文学
+ */
+/*  */
+body {background:#FFF;}
+.t-tab {border-bottom:1px solid #EEEEEE;font-size:2rem;padding-top:.3rem;}
+.t-tab li {width:33.3333%;float:left;text-align:center;}
+/* .t-tab li:nth-child(2) {width:50%;} */
+.t-tab li .btn {border-bottom:2px solid transparent;padding:.8rem 0;display:block;}
+.t-tab li .btn.active {border-bottom-color:#1AB1EA;color:#1AB1EA;}
+
+
+.t-list .t-tabpan{display:none;padding:.3rem 1.5rem;}
+.t-list .t-tabpan.active{display:block;}
+.t-list .t-tabpan-item  {padding:1rem 0 1rem;border-bottom:1px solid #EEEEEE;overflow:hidden;clear:both;}
+.t-list .t-tabpan-item  .icon {float:left;width:13rem;height:7.3rem;}
+.t-list .t-tabpan-item  .text {margin-left:13rem;padding-left:4%;}
+.t-list .t-tabpan-item  .text .name {font-size:1.6rem;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;display:block;}
+.t-list .t-tabpan-item  .text .description {color:#999;overflow:hidden;line-height:1.4;margin:.3rem 0;overflow:hidden;display:-webkit-box;-webkit-box-orient:vertical;text-overflow:ellipsis;-webkit-line-clamp:2;}
+.t-list .t-tabpan-item  .text .time {color:#aaa;text-align:right;margin:0;}
+
+
+.t-article {padding:0 2rem;}
+.t-article .title {font-weight:normal;font-size:2rem;}
+.t-article .voic {margin:0;color:#999;font-weight:normal;}
+.t-article .content img {width:100%;}
+.t-article .content p img {width:100% !important;}
+@media screen and (max-width:400px) {
+  .t-list .t-tabpan-item  .icon {width:10rem;height:5.6rem;}
+  .t-list .t-tabpan-item  .text {margin-left:10rem;}
+  .t-list .t-tabpan-item  .text .description {margin:.1rem 0;line-height:1.5;}
+}
+
+@media screen and (max-width:350px) {
+  .t-tab {font-size:1.8rem;}
+  .t-tab li {padding:.6rem 0;}
+  .t-tab li .btn {padding:.6rem 0;}
+  .t-list .t-tabpan-item {padding:1rem 0 .5rem;}
+  .t-list .t-tabpan-item  .icon {width:7rem;height:3.9rem;}
+  .t-list .t-tabpan-item  .text {margin-left:7rem;}
+  .t-list .t-tabpan-item .text .name {font-size:1.4rem;}
+  .t-list .t-tabpan-item  .text .description {font-size:1.2rem;}
+  .t-list .t-tabpan-item .text .time {font-size:1.2rem;}
+  
+  .t-article .title {font-size:1.6rem;}
+}

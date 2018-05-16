@@ -1,0 +1,718 @@
+[ 2018-05-16T10:24:58+08:00 ] 192.168.1.4 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: token C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 6 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0130s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 66 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 66 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 66 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 66 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 66 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 66 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 66 行.
+NOTIC: [2] in_array() expects parameter 2 to be array, null given C:\wamp\www\Application\qpht\Controller\BaseController.class.php 第 66 行.
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0120s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0130s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0060s ]
+NOTIC: [2] Missing argument 3 for qpht\Model\AccountxlmjModel::formatTableAcc(), called in C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php on line 73 and defined C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 47 行.
+NOTIC: [8] Undefined variable: gameid C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 50 行.
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+
+[ 2018-05-16T10:24:59+08:00 ] 192.168.1.4 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 7 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.013000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-16T10:25:19+08:00 ] 192.168.1.4 /qpht.php/Publics/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_account` WHERE `accountname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-16T10:25:20+08:00 ] 192.168.1.4 /qpht.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0130s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0140s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0060s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 3 for qpht\Model\AccountxlmjModel::formatTableAcc(), called in C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php on line 73 and defined C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 47 行.
+NOTIC: [8] Undefined variable: gameid C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 50 行.
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+
+[ 2018-05-16T10:26:10+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0090s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0050s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 3 for qpht\Model\AccountxlmjModel::formatTableAcc(), called in C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php on line 73 and defined C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 47 行.
+NOTIC: [8] Undefined variable: gameid C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 50 行.
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+
+[ 2018-05-16T10:27:46+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0090s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0170s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 3 for qpht\Model\AccountxlmjModel::formatTableAcc(), called in C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php on line 73 and defined C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 47 行.
+NOTIC: [8] Undefined variable: gameid C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 50 行.
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+
+[ 2018-05-16T10:27:47+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0130s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0110s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0100s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0070s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0030s ]
+NOTIC: [2] Missing argument 3 for qpht\Model\AccountxlmjModel::formatTableAcc(), called in C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php on line 73 and defined C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 47 行.
+NOTIC: [8] Undefined variable: gameid C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 50 行.
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+ERR: 1048:Column 'gameid' cannot be null
+ [ SQL语句 ] : INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES (NULL,'2018-05-15','95','0','95','0','0')
+
+[ 2018-05-16T10:28:15+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0100s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0000s ]
+
+[ 2018-05-16T10:30:59+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0140s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0110s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0050s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0020s ]
+NOTIC: [2] Missing argument 3 for qpht\Model\AccountxlmjModel::formatTableAcc(), called in C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php on line 73 and defined C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 47 行.
+NOTIC: [8] Undefined variable: gameid C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 50 行.
+
+[ 2018-05-16T10:31:28+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0070s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0100s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0170s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0160s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0070s ]
+NOTIC: [2] Missing argument 3 for qpht\Model\AccountxlmjModel::formatTableAcc(), called in C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php on line 73 and defined C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 47 行.
+NOTIC: [8] Undefined variable: gameid C:\wamp\www\Application\qpht\Model\AccountxlmjModel.class.php 第 50 行.
+
+[ 2018-05-16T10:42:22+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0070s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0080s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0050s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0030s ]
+
+[ 2018-05-16T10:43:36+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0070s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0060s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0020s ]
+SQL: INSERT INTO `qp_gamemain` (`gameid`,`countime`,`newplayer`,`oldplayer`,`activeplayer`,`allplay`,`aveplay`) VALUES ('1','2018-05-15','95','0','95','0','0') [ RunTime:0.0360s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE `uptime` = '2018-05-16' AND `gameid` = 1 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qp_dbupdata` (`uptime`,`gameid`) VALUES ('2018-05-16','1') [ RunTime:0.0210s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=2 ) ORDER BY id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=2 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: select DATE_FORMAT(create_time,'%Y-%m-%d') days,count(userid),count(login_time) from tbl_account where create_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0100s ]
+SQL: select DATE_FORMAT(change_time,'%Y-%m-%d') days,count(user_id),count(DISTINCT user_id) from table_game_change_gold where user_id<1000 and change_time BETWEEN '2018-05-15' AND '2018-005-16' group by days DESC [ RunTime:0.0030s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE `uptime` = '2018-05-16' AND `gameid` = 2 LIMIT 1   [ RunTime:0.0000s ]
+SQL: INSERT INTO `qp_dbupdata` (`uptime`,`gameid`) VALUES ('2018-05-16','2') [ RunTime:0.0360s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_gamemain` LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=2 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 22 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2018-05-16T10:43:49+08:00 ] ::1 /qpht.php/index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0070s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0070s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=2 ) ORDER BY id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=2 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_gamemain` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=2 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 22 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-16T10:44:24+08:00 ] 192.168.1.4 /qpht.php/Publics/loginShow
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\PublicsController.class.php on line 7 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-16T10:44:42+08:00 ] 192.168.1.4 /qpht.php/Publics/loginAction.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_account` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qp_account` WHERE `accountname` = 'admin' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-16T10:44:43+08:00 ] 192.168.1.4 /qpht.php/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0090s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0060s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0060s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/index/index' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gameinfo`  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY id LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=1 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_account` [ RunTime:0.0020s ]
+SQL: SHOW COLUMNS FROM `qp_dbupdata` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=2 ) ORDER BY id LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_dbupdata` WHERE ( gameid=2 ) ORDER BY uptime desc LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `qp_gamemain` LIMIT 1   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=2 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0010s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in C:\wamp\www\Application\qpht\Controller\IndexController.class.php on line 22 and defined C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content C:\wamp\www\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\d58da6f4db31771c17480fc019d566fe.php 第 113 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.023000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.023000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2018-05-16T10:44:54+08:00 ] 192.168.1.4 /qpht.php/index/gamechange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=2 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0010s ]
+
+[ 2018-05-16T10:45:00+08:00 ] 192.168.1.4 /qpht.php/index/gamechange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=1 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0000s ]
+
+[ 2018-05-16T10:45:01+08:00 ] 192.168.1.4 /qpht.php/index/gamechange
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_gamemain` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qp_gamemain` WHERE ( gameid=2 ) ORDER BY countime desc LIMIT 0,7   [ RunTime:0.0010s ]
+
+[ 2018-05-16T10:45:13+08:00 ] 192.168.1.4 /qpht.php/gamemanage/gamemanlist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0090s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0090s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0090s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/gamemanage/gamemanlist' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( id=1 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_playerinfo` [ RunTime:0.0030s ]
+NOTIC: [8] Undefined index: playid C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 28 行.
+NOTIC: [8] Undefined index: playertype C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 31 行.
+NOTIC: [8] Undefined index: playertype C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 33 行.
+SQL: SELECT COUNT(userid) AS tp_count FROM `tbl_playerinfo` WHERE tbl_playerinfo.create_time BETWEEN '2018-05-15' AND '2018-05-17' LIMIT 1   [ RunTime:0.0150s ]
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 39 行.
+NOTIC: [8] Undefined index: ordertype C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 43 行.
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 46 行.
+SQL: SELECT tbl_playerinfo.userid,`nickname`,`sex`,`gold`,tbl_playerinfo.create_time,`convert_tick`,`diamond`,`luck_tick`,`channel`,`login_time`,`ip`,`platform` FROM `tbl_playerinfo` INNER JOIN tbl_account ON tbl_playerinfo.userid = tbl_account.userid  WHERE tbl_playerinfo.create_time BETWEEN '2018-05-15' AND '2018-05-17' LIMIT 0,20   [ RunTime:0.0220s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=0 GROUP BY user_id [ RunTime:0.0050s ]
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 56 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 61 行.
+NOTIC: [8] Undefined offset: 0 C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 66 行.
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=1 GROUP BY user_id [ RunTime:0.0040s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=2 GROUP BY user_id [ RunTime:0.0040s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=3 GROUP BY user_id [ RunTime:0.0050s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=4 GROUP BY user_id [ RunTime:0.0040s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=5 GROUP BY user_id [ RunTime:0.0030s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=6 GROUP BY user_id [ RunTime:0.0030s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=7 GROUP BY user_id [ RunTime:0.0030s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=8 GROUP BY user_id [ RunTime:0.0030s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=9 GROUP BY user_id [ RunTime:0.0030s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=10 GROUP BY user_id [ RunTime:0.0020s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=11 GROUP BY user_id [ RunTime:0.0020s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=12 GROUP BY user_id [ RunTime:0.0020s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=13 GROUP BY user_id [ RunTime:0.0020s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=14 GROUP BY user_id [ RunTime:0.0020s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=15 GROUP BY user_id [ RunTime:0.0020s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=16 GROUP BY user_id [ RunTime:0.0020s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=17 GROUP BY user_id [ RunTime:0.0030s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=18 GROUP BY user_id [ RunTime:0.0030s ]
+SQL: SELECT count(if(room_id=1201,true,null)) AS r1,count(if(room_id=1202,true,null)) AS r2,count(if(room_id=1203,true,null)) as r3 FROM `table_game_change_gold` where user_id=19 GROUP BY user_id [ RunTime:0.0030s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 113 行.
+NOTIC: [8] Undefined variable: menuxdata C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 141 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\772a5fd4f656fe8dcafd9bf4c75d9ba2.php 第 223 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2018-05-16T10:45:19+08:00 ] 192.168.1.4 /qpht.php/gamemanage/seachdata
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant ORDER_LIST - assumed 'ORDER_LIST' C:\wamp\www\Application\qpht\Controller\GamemanageController.class.php 第 69 行.
+NOTIC: [8] Undefined index:  C:\wamp\www\Application\qpht\Controller\GamemanageController.class.php 第 69 行.
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( id=2 )  [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `tbl_playerinfo` [ RunTime:0.0030s ]
+SQL: SELECT COUNT(userid) AS tp_count FROM `tbl_playerinfo` WHERE tbl_playerinfo.create_time BETWEEN '2018-05-15' AND '2018-05-17' LIMIT 1   [ RunTime:0.0090s ]
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 38 行.
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 46 行.
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 46 行.
+SQL: SELECT tbl_playerinfo.userid,`nickname`,`sex`,`gold`,tbl_playerinfo.create_time,`convert_tick`,`diamond`,`luck_tick`,`channel`,`login_time`,`ip`,`platform` FROM `tbl_playerinfo` INNER JOIN tbl_account ON tbl_playerinfo.userid = tbl_account.userid  WHERE tbl_playerinfo.create_time BETWEEN '2018-05-15' AND '2018-05-17' LIMIT 0,20   [ RunTime:0.0130s ]
+
+[ 2018-05-16T10:45:27+08:00 ] 192.168.1.4 /qpht.php/gamemanage/playsinfo
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `qp_role` [ RunTime:0.0050s ]
+SQL: SELECT `jurisdiction` FROM `qp_role` WHERE `id` = 4 LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `qp_module` [ RunTime:0.0050s ]
+SQL: SHOW COLUMNS FROM `qp_menu` [ RunTime:0.0050s ]
+SQL: SELECT `id` FROM `qp_menu` WHERE `menurl` = '/gamemanage/playsinfo' LIMIT 1   [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_module` ORDER BY sortnum LIMIT 10   [ RunTime:0.0010s ]
+SQL: SELECT * FROM `qp_menu` LIMIT 50   [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `qp_gameinfo` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( state=1 )  [ RunTime:0.0000s ]
+SQL: SELECT * FROM `qp_gameinfo` WHERE ( id=1 )  [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `table_game_change_gold` [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: playid C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 89 行.
+SQL: SELECT COUNT(user_id) AS tp_count FROM `table_game_change_gold` WHERE table_game_change_gold.change_time BETWEEN '2018-05-15' AND '2018-05-17' LIMIT 1   [ RunTime:0.0030s ]
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 94 行.
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 95 行.
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 99 行.
+NOTIC: [8] Use of undefined constant PAGE_NUM - assumed 'PAGE_NUM' C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 99 行.
+SQL: SELECT * FROM `table_game_change_gold` WHERE table_game_change_gold.change_time BETWEEN '2018-05-15' AND '2018-05-17' LIMIT 0,20   [ RunTime:0.0040s ]
+SQL: select nickname from tbl_playerinfo where userid=24920 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24320 [ RunTime:0.0000s ]
+SQL: select nickname from tbl_playerinfo where userid=24919 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24920 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24320 [ RunTime:0.0000s ]
+SQL: select nickname from tbl_playerinfo where userid=24919 [ RunTime:0.0000s ]
+SQL: select nickname from tbl_playerinfo where userid=24920 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24320 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24919 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24320 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24920 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24919 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24320 [ RunTime:0.0000s ]
+SQL: select nickname from tbl_playerinfo where userid=24920 [ RunTime:0.0000s ]
+SQL: select nickname from tbl_playerinfo where userid=24919 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=25042 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=25039 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=25040 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=25041 [ RunTime:0.0010s ]
+SQL: select nickname from tbl_playerinfo where userid=24920 [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: gameid C:\wamp\www\Application\qpht\Model\BaseplayinfoModel.class.php 第 107 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: actions C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 113 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+NOTIC: [8] Undefined variable: account C:\wamp\www\Runtime\Cache\qpht\2098111738d8e653122e41734fedfb9e.php 第 171 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+

@@ -1,0 +1,42 @@
+ 	.c_web_icon, .c_home_icon, .c_add_icon, .c_login_icon, .c_reg_icon, .down_ico, .game_list_icon, .search_btn, .user_level_vip, .tips_user_nomsg, .tips_user_msg {
+    background: url(http://statics.9377s.com/images/2016/top_csp.png?201702221112) 0 0 no-repeat;
+}
+
+	.top_sub_main{width:100%; height:35px; background:#fff; color:#999; border-bottom:1px solid #ececec; box-shadow: 0 1px 2px rgba(0,0,0,.05); position: relative; z-index: 5;}
+	.top_sub_nav{width:1200px; margin:0 auto; position:relative; z-index:100;}
+	.sub_nav_left, .sub_nav_right{line-height:35px;}
+	.sub_nav_left a{display:inline-block; height:35px; padding-left:22px; font-size:12px; color:#999; margin-right:14px; position:relative;}
+	.sub_nav_left a:hover, .top_login_tips a:hover{color:#03b4f5; transition:all 0.4s ease-in-out; text-decoration:none;}
+	.c_web_icon, .c_home_icon, .c_add_icon, .c_login_icon, .c_reg_icon, .down_ico, .game_list_icon, .user_level_vip, .tips_user_nomsg, .tips_user_msg{width:18px; height:16px; position:absolute; top:10px; left:0px;}
+	.c_web_icon{background-position:-33px -11px;}
+	.c_home_icon{background-position:-31px -46px;}
+	.c_add_icon{background-position:-32px -82px;}
+	.c_login_icon{background-position:-31px -154px; top:9px;}
+	.c_reg_icon{background-position:-31px -226px; top:9px;}
+	.down_ico{background-position:-2px -263px; width:22px;}
+	.game_list_icon{background-position:-29px -298px; left:auto; right:0px;}
+	.user_level_vip{background-position:-4px -334px; top:8px;}
+	.tips_user_nomsg{background-position:-32px -190px; top:9px;}
+	.tips_user_msg{background-position:-32px -369px; top:9px;}
+	/*.top_sub_nav a:hover i{transition:all 0.4s ease-in-out;}*/
+	.top_sub_nav a:hover .c_web_icon{background-position:-6px -11px;}
+	.top_sub_nav a:hover .c_home_icon{background-position:-4px -46px;}
+	.top_sub_nav a:hover .c_add_icon{background-position:-5px -82px;}
+	.top_sub_nav a:hover .c_login_icon{background-position:-4px -154px;}
+	.top_sub_nav a:hover .c_reg_icon{background-position:-4px -226px;}
+	.top_sub_nav a:hover .tips_user_nomsg{background-position:-5px -190px;}
+	.top_sub_nav a:hover .tips_user_msg{background-position:-5px -369px;}
+	.all_games_ico:hover .game_list_icon{background-position:-2px -298px;}
+
+	.top_login_tips a{float:left; display:inline; height:35px; padding-left:22px; font-size:12px; color: #999; position:relative;}
+	.top_login_tips a.t_btn1{padding-right:10px;}
+	.top_login_tips a.t_user_name, .top_login_tips a.t_user_out{padding-left:0; margin-right:10px;}
+	.top_login_tips a.t_btn2{margin:0 5px;}
+	.top_login_tips a.user_vip{margin-right:5px;}
+	.user_vip .top_user_level{position:absolute; font:8px/12px \9ED1\4F53; color:#03b4f5; left:10px; top:15px;}
+	.all_games_ico{display:inline-block; vertical-align:top; width:58px; height:35px; line-height:35px; margin-left:12px; padding-right: 12px; text-indent:3px; cursor:default; position:relative;}
+
+	.sub_nav_search{width:158px; height:22px; margin:6px 0 0 10px; border:1px solid #7cdcff; border-radius:3px; overflow:hidden; background:#fff;}
+	.sub_nav_search:hover { border-color: #03b4f5;}
+	.top_sub_main .search_txt {width:128px; height:16px; padding:3px 0; font:12px/16px \5FAE\8F6F\96C5\9ED1; outline:none; color:#999; text-indent:5px; border:none; background:none; float:left;}
+	.top_sub_main .search_btn {width:30px; height:22px; cursor:pointer; border:none; background-position:3px -116px; float:left;}

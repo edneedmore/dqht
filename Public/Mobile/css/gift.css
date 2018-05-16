@@ -1,0 +1,119 @@
+/**
+ * 礼包样式
+ * @author 鹿文学
+ */
+/*  */
+body {background:#FFF;}
+
+.searchbox {background:#E5E9EC;padding:1rem 0;border-bottom:1px solid #DCDDE0;}
+.searchbox .search {margin:0 6rem;display:block;position:relative;text-align:center;}
+.searchbox .search .text {box-sizing:border-box;-webkit-sizing:border-box;width:100%;font-size:1.8rem;border:none;background:#FFF;border-radius:4rem;padding:.5rem 1.5rem .5rem 4rem;height:3.2rem;}
+.searchbox .search .btn {position:absolute;top:0.6rem;left:1.1rem;}
+.searchbox .search .btn .iconfont {font-size:2.4rem;color:#bbb;}
+
+
+.list-detail {padding:0 1rem;}
+.list-detail li {padding:2rem 0;overflow:hidden;clear:both;position:relative;}
+.list-detail li~li {border-top:1px solid #EEEEEE;}
+.list-detail .icon {float:left;width:6rem;height:6rem;border-radius:20%;}
+.list-detail .btnbox {width:8rem;float:right;}
+.list-detail .btnbox p {color:#FFC700;text-align:center;margin-top:0;}
+.list-detail .btnbox .btn {
+  background:#18B1EA;
+  color:#FFF;border:3px solid #18B1EA; 
+  display:block;margin-top:1.5rem;
+  text-align:center;
+  width:90%;
+  height:3rem;
+  border-radius:3rem;
+  font-size:1.6rem;
+  line-height:3rem;
+  -webkit-box-sizing:border-box;
+  box-sizing:border-box;
+}
+.list-detail .btnbox .btn.disabled {border-color:#CCC;color:#999;background:transparent;}
+.list-detail .text {margin:0 8rem 0 7rem;}
+
+.list-detail .text .name {font-size:1.6rem;margin-right:5px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;display:block;}
+.list-detail .text .starbox {}
+.list-detail .text .iconfont {color:#FFC600;margin:2px 1px 0;}
+.list-detail .text .info {color:#999;padding-top:.2rem;}
+.list-detail .text .info span {display:inline-block;margin-right:2rem;position:relative;}
+.list-detail .text .info span:after{content:'';width:.1rem;height:1.1rem;background:#999999;position:absolute;top:.3rem;right:-1rem;}
+.list-detail .text .info .dlnumber {margin:0;}
+.list-detail .text .info .dlnumber:after {width:0;}
+
+.list-detail .text .description {margin:0;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;color:#999;font-size:1.2rem;}
+
+.detail .base {background:url(../images/giftdetail_bg.png) center 0 no-repeat;background-size:100% 100%;text-align:center;color:#FFF;padding-top:1rem;}
+.detail .base .wrap img {width:7rem;height:7rem;border-radius:100%;border:.4rem solid #5EC9F0;display:block;margin:0 auto 1.5rem;}
+.detail .base .wrap span {font-size:1.8rem;padding:.5rem 2rem;background:#47C9FA;background-image:linear-gradient(to bottom,#73D5F9,#4BCBFC,#16B9F7);border-radius:2rem;letter-spacing:.1rem;}
+.detail .base .wrap p {font-size:1.6rem;padding-bottom:1rem;margin-bottom:0;}
+
+.detail .other {padding:1rem 1.5rem;}
+.detail .other .detail-item-title {margin:1rem 0;color:#18B1EA;font-size:2rem;position:relative;padding-left:1rem;font-weight:normal;}
+.detail .other .detail-item-title:before {content:'';width:.5rem;height:.5rem;background:#18B1EA;border-radius:100%;display:block;position:absolute;top:1rem;left:0;}
+.detail .other p {font-size:1.6rem;color:#999;margin:0;line-height:2.8rem;}
+.detail .other .qq {color:#F6A825;}
+.detail .other .btnbox {padding:3rem;text-align:center;}
+.detail .other .btnbox .btn {color:#FFF;background:#18B1EA;font-size:2.6rem;display:inline-block;width:100%;height:4rem;line-height:4rem;border-radius:4rem;}
+.detail .other .btnbox .btn.disabled {background:#CCC;}
+
+
+@media screen and (max-width:450px) {
+.list-detail .btnbox .btn {border-width:1px;}
+}
+@media screen and (max-width:400px) {
+  .list-detail li {padding:1.5rem 0;}
+  .list-detail .icon {width:5.5rem;height:5.5rem;}
+  .list-detail .btnbox {width:7rem;}
+  .list-detail .text {margin:0 7rem 0 6rem;}
+  .list-detail .btnbox .btn {font-size:1.5rem;height:2.5rem;line-height:2.4rem;}
+  .list-detail.bot li {margin-left:3rem;}
+  .list-detail.bot li .sorticon {top:3.5rem;left:-2.5rem;width:1.7rem;height:1.7rem;}
+  
+  .detail .base .wrap img {width:5rem;height:5rem;margin-bottom:1.2rem;}
+  .detail .base .wrap span {font-size:1.5rem;padding:.4rem 1.5rem;}
+  .detail .base .wrap p  {font-size:1.4rem;}
+  
+  .detail .other .detail-item-title {font-size:1.8rem;}
+  .detail .other .detail-item-title:before {top:.9rem;}
+  .detail .other p {font-size:1.4rem;line-height:2.4rem;}
+  .detail .other .btnbox .btn {font-size:2.2rem;height:3.5rem;line-height:3.5rem;}
+  
+  
+
+}
+@media screen and (max-width:350px) {
+  .list-detail li {padding:1rem 0;}
+  .list-detail .icon {width:5rem;height:5rem;}
+  .list-detail .btnbox {width:6rem;}
+  .list-detail .text {margin:0 6rem 0 5.5rem;}
+  .list-detail .btnbox .btn {font-size:1.3rem;height:2rem;line-height:2rem;border-width:1px;}
+  .list-detail .text .iconfont {font-size:1rem;}
+  .list-detail .text {font-size:1.2rem;}
+  .list-detail .text .name {font-size:1.4rem;}
+  .list-detail .text .info span {margin-right:1rem;}
+  .list-detail .text .info span:after {right:-.5rem;height:.9rem;}
+  .list-detail.bot li {margin-left:2.5rem;}
+  .list-detail.bot li .sorticon {top:3rem;left:-2rem;width:1.5rem;height:1.5rem;}
+
+  .searchbox .search .text {font-size:1.5rem;}
+  
+  .list-detail .btnbox p {font-size:1.2rem;}
+
+  .detail .base .wrap img {width:4rem;height:4rem;margin-bottom:1rem;}
+  .detail .base .wrap span {font-size:1.3rem;padding:.2rem 1rem;}
+  .detail .base .wrap p  {font-size:1.2rem;}
+  
+  .detail .other .detail-item-title {font-size:1.6rem;}
+  .detail .other .detail-item-title:before {top:.7rem;}
+  .detail .other p {font-size:1.2rem;line-height:2rem;}
+  
+  .detail .other .btnbox .btn {font-size:1.8rem;height:3rem;line-height:3rem;}
+  
+  /*.list-detail .btnbox .btn {border-width:1px;}*/
+  
+}
+
+
